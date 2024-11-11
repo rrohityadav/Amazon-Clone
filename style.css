@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+    background: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("./image/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.nav-address {
+    color: white;
+    height: 50px;
+    border: 2px solid transparent;
+}
+
+.location-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.search-icon {
+    color: white;
+}
+
+.nav-search {
+    background-color: #eaa04a;
+    width: 620px;
+    height: 50px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select {
+    background: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+    width: 55px
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.account-list {
+    color: white;
+    background: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.signIn {
+    color: #CCCCCC;;
+    font-size: 1rem;
+}
+
+.account-list {
+    font-size: 1.2rem;
+}
+
+.return-order {
+    font-size: 1.2rem;
+}
+.cart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.mini-navbar{
+    background: #0a203b;
+    height: 45px;
+}
+.mini-navbar{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+
+}
+.menu i {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.common-div{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.image{
+    height: 40px;
+}
+.heroImage{
+    height: 100%;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
